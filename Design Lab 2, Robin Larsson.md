@@ -8,7 +8,7 @@ Jag tycker att det är Abstract Factory method som påvisas i denna kod. Kollar 
 
 Det jag menar är följande kod :
 
-```Csharp 
+```Csharp
      public abstract class Restaurant //Här är klassen abstrakt
     {
 
@@ -34,8 +34,6 @@ Följande kod är ett interface för att skapa beskrivning av måltiden.
     }
 }
 ```
-
-
 
  Här kan man se att klassen Hamburger ärver ShowDescription från IMeal och skriver över sin egna beskrivning av vad den måltiden innehåller.
 
